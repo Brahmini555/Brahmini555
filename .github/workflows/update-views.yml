@@ -1,0 +1,38 @@
+name: Update Real Profile Views
+
+on:
+  schedule:
+    # Runs once a day at 00:20 UTC — late enough that "yesterday" is a
+    # fully completed day in GitHub's traffic data.
+    - cron: '20 0 * * *'
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-views:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch traffic data and update total
+        env:
+          TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: bash .github/scripts/update_views.sh
+
+      - name: Commit updated count
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/view-tracking.json README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update real profile view count"
+            git push
+          else
+            echo "No changes to commit."
+          fi
