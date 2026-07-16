@@ -12,7 +12,9 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Brahmini555&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" alt="profile views"/>
+<!--VIEWS-START-->
+<img src="https://img.shields.io/badge/Real%20Profile%20Views-0-0ea5e9?style=for-the-badge" alt="real profile views"/>
+<!--VIEWS-END-->
 &nbsp;
 <img src="https://img.shields.io/github/followers/Brahmini555?style=for-the-badge&color=0ea5e9&labelColor=0d1117&label=FOLLOWERS" alt="followers"/>
 &nbsp;
@@ -76,7 +78,17 @@ fun_fact: "Passionate about automation — if I can script it, I will."
 ## 🏅 Certifications
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Google%20%2F%20L4G-Associate%20Cloud%20Engineering%20Virtual%20Internship%20✅-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
+  <a href="https://drive.google.com/file/d/1sif_nq8c3OCqHg0ImahierykToigAykn/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Google%20%2F%20L4G-Associate%20Cloud%20Engineering%20Virtual%20Internship%20✅-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" title="Click to view certificate"/>
+  </a>
+  <br/><br/>
+  <a href="https://drive.google.com/file/d/1Q_pmYFkCB0wrzScQnDeXr6ltdgKADFv4/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Google-Generative%20AI%20Internship%20✅-FF6F00?style=for-the-badge&logo=google&logoColor=white" title="Click to view certificate"/>
+  </a>
+  <br/><br/>
+  <a href="https://drive.google.com/file/d/1P319m6l5or4WS2kiJBB5dkMcBwXBVhpG/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Google-Certificate%20✅-4285F4?style=for-the-badge&logo=google&logoColor=white" title="Click to view certificate"/>
+  </a>
   <br/><br/>
   <img src="https://img.shields.io/badge/E--CELL%20BITS%20Hyderabad-Technical%20Workshop%20✅-6C3483?style=for-the-badge"/>
   <br/><br/>
@@ -88,6 +100,11 @@ fun_fact: "Passionate about automation — if I can script it, I will."
 </p>
 
 > Google/L4G Associate Cloud Engineering Virtual Internship — 10 weeks (May–Jul 2026), 10 Skill Badges earned.
+> 📄 Badges with a link open the actual certificate — click to verify.
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=2800&pause=900&color=4285F4&center=true&vCenter=true&width=650&lines=%E2%9C%85+Verified+Google+%2F+L4G+Cloud+%2B+Gen+AI+Internship+Certificates" alt="verified certs"/>
+</p>
 
 ---
 
@@ -113,6 +130,7 @@ fun_fact: "Passionate about automation — if I can script it, I will."
 `10 Weeks · May – Jul 2026`
 
 - Completed the **Associate Cloud Engineering Virtual Internship**, earning **10 Skill Badges**
+- Completed a **Generative AI Internship** alongside the cloud engineering track
 - Hands-on with core AWS & cloud fundamentals: EC2, VPC, IAM, Load Balancers, S3
 - Practiced containerization and orchestration concepts with **Docker** and **Kubernetes**
 - Applied **Terraform** for infrastructure provisioning exercises
